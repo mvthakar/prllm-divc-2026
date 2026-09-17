@@ -1,6 +1,6 @@
 <?php
 
-function get(string $key): string {
+function get(string $key): string | null {
     return $_GET[$key] ?? null;
 }
 
